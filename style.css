@@ -1,23 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
-body{
-    background-color: #DEFFF2;
-    font-family: 'Open Sans', sans-serif;
+body {
+    background-color: black;
 }
 
-img{
-    width: 200px;
-    height: 250px;
-    border-radius: 100%;
+.infos {
+    color: aliceblue;
+    margin-top: 150px;
+    margin-left: 150px;
 }
 
-li{
-    text-decoration: none;
-    color: #464F51;
+.ul-nav {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  list-style-type: none;
+  justify-content: flex-end;
+  text-decoration: none;
 }
-p{
-    color: #464F51;
+
+.li-nav {
+  background-color: rgb(61, 59, 59);
+  margin: 10px;
 }
-.url{
-    text-decoration: none;
+
+a:link {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
 }

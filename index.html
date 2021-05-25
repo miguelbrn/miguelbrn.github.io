@@ -1,47 +1,36 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Meu portifólio</title>
+		<link rel="stylesheet" href="style.css">
+    <title>Miguel's Portfolio</title>
 </head>
 <body>
-    <ul class="menu">
-        <li><a href="#who-am-i">Quem sou eu</a></li>
-        <li><a href="#skills">Soft Skills</a></a></li>
-        <li><a href="#blogs">Blogs que acesso diariamente</a></li>
-    </ul>
-    <h1 class="title">Miguel Brendo Albuquerque Dantas</h1>
-    <img src="./perfil.png" alt="Minha foto">
-    <p id="who-am-i">Olá, meu nome é <strong>Miguel</strong>, tenho 24 anos e sou de Baraúna, Rio Grande do Norte.<br> Atualmente estudo Engenharia da computaçã pela Universidade Potiguar e curso também Desenvolvimento de Software pela Trybe.</p>
-    <h3 class="title">Tecnologias que Trabalho</h3>
-        <ul class="list">
-            <li>JavaScript</li>
-            <li>HTML/CSS</li>
-            <li>React Native</li>
-        </ul>
-    <h3 class="title" id="skills">Soft Skills</h3>
-        <ul class="list">
-            <li><em>Proativo</em></li>
-            <li><strong>Prestativo</strong></li>
-            <li><em>Focado</em></li>
-            <li><em>Autoconfiante</em></li>
-            <li><em>Trabalho em grupo</em></li>
-            <li><em>Boa cominicação</em></li>
-        </ul>
-    <h3>Alguns sites que acesso diariamente.</h3>
-        <ul id="blogs">
-            <li><a href="https://blog.betrybe.com/" target="_blank">Blog da Trybe</a></li>
-            <li><a href="https://www.tudocelular.com/" target="_blank">Tudo Celular</a></li>
-            <li><a href="https://www.tecmundo.com.br/" target="_blank">Tecmundo</a></li>
-            <li><a href="https://sempreupdate.com.br/" target="_blank">Sempre Update</a></li>
-        </ul>
-    <h3>Contato</h3>
-        <ul class="url">
-            <li><a href="">WhatsApp</a></li>
-            <li><a href="">GitHub</a></li>
-            <li><a href="">Instagram</a></li>
-        </ul>
+  <nav class="main-nav">
+		<ul class="ul-nav">
+			<li class="li-nav"><a href="about.html"> Sobre mim </a></li>
+			<li class="li-nav"><a class="a-nav" href="projects.html">Projetos</a></li>
+		</ul>
+  </nav>
+	<div class="infos">
+    <h1>OLÁ</h1>
+    <h2>Me chamo &lt;Miguel Dantas&gt;</h2>
+    <h3>e sou Desenvolvedor Fullstack Junior</h3>
+  </div>
+  <footer>
+    <div class="contats">
+      <a href="https://github.com/miguelbrn">GitHub</a>
+      <a href="https://www.linkedin.com/in/miguel-dantas-101495113/">Linkedin</a>
+      <a href="https://www.instagram.com">Instagram</a>
+    </div>
+    <p>Desenvolvido por Miguel, todos os direitos reservados</p>
+  </footer>
+  <script>
+    localStorage.setItem("lastname", "Smith");
+    const lasname = localStorage.getItem("lastname");
+    console.log(lasname);
+  </script>
 </body>
 </html>
